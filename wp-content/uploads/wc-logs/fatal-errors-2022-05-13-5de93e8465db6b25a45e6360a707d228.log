@@ -1,0 +1,57 @@
+2022-05-13T09:53:56+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Controller.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php:87
+Stack trace:
+#0 C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Init.php(123): Automattic\Jetpack\Autoloader\jp29935910a6d727c9d564acfc56bd72e6\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#2 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(379): rest_get_server()
+#6 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#10 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(758): WP->parse_request('')
+#11 C:\xampp\htdocs\sgushoes\wp-includes\functions.php(1310): WP->main('')
+#12 C:\xampp\htdocs\sgushoes\wp-blog-header.php(16): wp()
+#13 C:\xampp\htdocs\sgushoes\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php on line 87
+
+2022-05-13T09:58:52+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Controller.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php:87
+Stack trace:
+#0 C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Init.php(123): Automattic\Jetpack\Autoloader\jp29935910a6d727c9d564acfc56bd72e6\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#2 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(379): rest_get_server()
+#6 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#10 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(758): WP->parse_request('')
+#11 C:\xampp\htdocs\sgushoes\wp-includes\functions.php(1310): WP->main('')
+#12 C:\xampp\htdocs\sgushoes\wp-blog-header.php(16): wp()
+#13 C:\xampp\htdocs\sgushoes\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php on line 87
+
+2022-05-13T09:58:57+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Controller.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php:87
+Stack trace:
+#0 C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Init.php(123): Automattic\Jetpack\Autoloader\jp29935910a6d727c9d564acfc56bd72e6\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#2 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 C:\xampp\htdocs\sgushoes\wp-includes\rest-api.php(379): rest_get_server()
+#6 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 C:\xampp\htdocs\sgushoes\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\sgushoes\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#10 C:\xampp\htdocs\sgushoes\wp-includes\class-wp.php(758): WP->parse_request('')
+#11 C:\xampp\htdocs\sgushoes\wp-includes\functions.php(1310): WP->main('')
+#12 C:\xampp\htdocs\sgushoes\wp-blog-header.php(16): wp()
+#13 C:\xampp\htdocs\sgushoes\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\sgushoes\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php on line 87
+
